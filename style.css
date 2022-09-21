@@ -1,0 +1,81 @@
+body{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20vh;
+}
+
+#myRange, #length {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+#length {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#myRange {
+    width: 70%;
+    margin-bottom: 15px;
+}
+
+#myRange:hover{
+    cursor: pointer;
+}
+
+#randomPassword {
+    background-color: rgb(50, 115, 246);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+
+}
+
+#randomPassword:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 115, 246);
+    box-shadow: 0px 0px 5px 5px rgb(0, 115, 246);
+}
+
+#password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+    width: 85%;
+    min-height: 40px;
+    font-size: 24px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#checkbox {
+    justify-content: space-between;
+}
+
+#checkbox input {
+    margin: 0 5px;
+
+
+}
+
+/* cursor hover pointer */ 
+#checkbox input:hover {
+    cursor: pointer;
+}
