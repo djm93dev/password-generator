@@ -75,7 +75,7 @@ body{
 
 }
 
-/* cursor hover pointer */ 
+
 #checkbox input:hover {
     cursor: pointer;
 }
